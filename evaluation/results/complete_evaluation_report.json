@@ -1,0 +1,37 @@
+{
+  "evaluation_date": "1764194044.3868845",
+  "system_version": "2.0",
+  "results": {
+    "pneumonia": {
+      "accuracy": 0.9783599088838268,
+      "precision": 0.9785796155327524,
+      "recall": 0.9783599088838268,
+      "f1_score": 0.9784304878957936,
+      "confusion_matrix": [
+        [
+          230,
+          7
+        ],
+        [
+          12,
+          629
+        ]
+      ],
+      "avg_inference_time": 0.05986207723617554,
+      "total_samples": 878
+    },
+    "skin_lesion": {
+      "status": "success",
+      "inference_time": 0.49123501777648926,
+      "output_path": "uploads/skin_lesion_output/test_evaluation.png",
+      "note": "Qualitative evaluation - no ground truth available"
+    },
+    "routing": {
+      "routing_accuracy": 0.7619047619047619,
+      "correct_routes": 16,
+      "total_routes": 21,
+      "avg_routing_time": 4.148791301818121,
+      "avg_confidence": 0.6047619047619046
+    }
+  }
+}
